@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/style.min.css">
+    <title>Memory Game</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Memory Game</h1>
+        </header>
+        <section class="info">
+            <div class="stars">
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <div class="timer">
+                <span id="timer-seconds">00:00:00</span>
+            </div>
+            <div class="moves">
+                <span id="span-moves">0</span> Moves
+            </div>
+            <div id="btn-refresh" class="refresh">
+                <i class="fa fa-refresh"></i>
+            </div>
+        </section>
+        <section class="game-area">
+            <div id="card-1-1" class="card">
+                <i class="fa fa-paper-plane-o fa-2x"></i>
+            </div>
+            <div id="card-2-1" class="card">
+                 <i class="fa fa-diamond fa-2x"></i>
+            </div>
+            <div id="card-3-1" class="card">
+                <i class="fa fa-cube fa-2x"></i>
+            </div>
+            <div id="card-4-1" class="card">
+                <i class="fa fa-anchor fa-2x"></i>
+            </div>
+            <div id="card-5-1" class="card">
+                <i class="fa fa-bolt fa-2x"></i>
+            </div>
+            <div id="card-6-1" class="card">
+                <i class="fa fa-bicycle fa-2x"></i>
+            </div>
+            <div id="card-7-1" class="card">
+                <i class="fa fa-leaf fa-2x"></i>
+            </div>
+            <div id="card-8-1" class="card">
+                <i class="fa fa-bomb fa-2x"></i>
+            </div>
+            <div id="card-6-2" class="card">
+                <i class="fa fa-bicycle fa-2x"></i>
+            </div>
+            <div id="card-5-2" class="card">
+                <i class="fa fa-bolt fa-2x"></i>
+            </div>
+            <div id="card-1-2" class="card">
+                <i class="fa fa-paper-plane-o fa-2x"></i>
+            </div>
+            <div id="card-8-2" class="card">
+                <i class="fa fa-bomb fa-2x"></i>
+            </div>
+            <div id="card-4-2" class="card">
+                <i class="fa fa-anchor fa-2x"></i>
+            </div>
+            <div id="card-7-2" class="card">
+                <i class="fa fa-leaf fa-2x"></i>
+            </div>
+            <div id="card-2-2" class="card">
+                <i class="fa fa-diamond fa-2x"></i>
+            </div>
+            <div id="card-3-2" class="card">
+                <i class="fa fa-cube fa-2x"></i>
+            </div>
+        </section>
+    </div>
+
+    <div id="model-box" class="model-box">
+    <h3>Congratulations</h3>
+    <div><span>Your time </span><span id="user-time"></span></div>
+    <div><span>Moves </span><span id="user-moves"></span></div>
+    <div>
+        <h4>Woooooooo!</h4>
+    </div>
+    <div>
+        <span>Stars number </span><span id="stars-result"></span>
+    </div>
+    <div class="restart">
+        <button id="btn-restart">Restart Game</button>
+       
+    </div>
+    </div>
+
+    <!-- easy timer library -->
+    <script src="https://cdn.jsdelivr.net/npm/easytimer@1.1.1/dist/easytimer.min.js"></script>
+    <!-- custom script -->
+    <script src="/js/app.min.js"></script>
+</body>
+</html>
