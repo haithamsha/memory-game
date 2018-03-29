@@ -1,7 +1,7 @@
 # Memory game
 Practice your memory with this simple game.
 
-#Open the game
+# Open the game
 To open the game just click the below link
 https://haithamsha.github.io/memory-game/
 #How to play
